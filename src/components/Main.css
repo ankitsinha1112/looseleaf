@@ -1,0 +1,18 @@
+.heading
+{
+    display: block;
+    margin: auto;
+    font-size: 1.5rem;
+}
+.input_values
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.input_values input
+{
+   background-color: black;
+   color: white;
+}
