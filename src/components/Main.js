@@ -2,7 +2,7 @@ import React from 'react';
 import './Main.css';
 export const Main = () => {
     return (
-<div>
+<div id="main">
             <div className="heading">
             Contact us to get started.
             </div>
@@ -41,6 +41,18 @@ export const Main = () => {
                         <a href="#"><i className="fa fa-linkedin"></i></a>
                 </div>
                 <div>
+                    Made In India <span aria-label="🇮🇳" role="img">🇮🇳</span> With <span aria-label="heart" role="img">❤️ </span>
+                </div>
+                <div id="last">
+                    <div>
+                        Privacy
+                    </div>
+                    <div>
+                        Terms
+                    </div>
+                    <div>
+                        Contact Us
+                    </div>
                 </div>
             </div>
 </div>
