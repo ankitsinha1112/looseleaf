@@ -1,5 +1,6 @@
 import React from 'react';
 import './Main.css';
+import { Footer } from "./Footer";
 export const Main = () => {
     return (
 <div id="main">
@@ -21,17 +22,22 @@ export const Main = () => {
                 <div>OUR OFFICES</div>
             </div>
             <div id="content1">
-                <div>
-                    CONTACT NUMBER
+                <div className="f1">
+                <div id="font">
+                     CONTACT NUMBER
                 </div>
                 <div>
                     +91-9310823646
                 </div>
+                </div>
+                <div className="f2">
+
                 <div>
                     Illustrations by StorySet
                 </div>
                 <div>
                 &copy; 2021 Looseleaf, LLP, All Rights Reserved
+                </div>
                 </div>
                 <div className="social-links">
                         <a href="#"><i className="fa fa-whatsapp"></i></a>
@@ -43,6 +49,7 @@ export const Main = () => {
                 <div>
                     Made In India <span aria-label="🇮🇳" role="img">🇮🇳</span> With <span aria-label="heart" role="img">❤️ </span>
                 </div>
+            </div>
                 <div id="last">
                     <div>
                         Privacy
@@ -54,7 +61,6 @@ export const Main = () => {
                         Contact Us
                     </div>
                 </div>
-            </div>
 </div>
     );
 };

@@ -78,11 +78,33 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content:  space-between;
     border-top: 3px solid white;
     padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+    margin-top: 1.25rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+}
+#last div
+{
+    font-size: large;
+}
+.f1
+{
+    margin: 2rem;
+}
+.f2
+{
+    margin: 1rem;
+}
+#font
+{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+#content1 div
+{
+color: rgba(255, 255, 255, 0.753);
 }
