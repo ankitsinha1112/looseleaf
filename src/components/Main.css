@@ -3,6 +3,8 @@
     display: block;
     margin: auto;
     font-size: 1.5rem;
+    padding: 1rem;
+    font-family: Impact, sans-serif;
 }
 .input_values
 {
@@ -15,4 +17,42 @@
 {
    background-color: black;
    color: white;
+   border: 1.75px solid white;
+   /* margin: 1rem; */
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   width: 75%;
+   height: 4vh;
 }
+.input_values input::placeholder  {
+   padding: 0.5rem;
+   /* padding-top: 1rem;
+   padding-bottom: 1rem; */
+    color: rgba(255, 255, 255, 0.664);
+  }
+  #contact
+  {
+      background-color: #2a85cd;
+      color: white;
+      border-radius: 5px;
+      width: 30%;
+      font-size: 1rem;
+      margin: 1rem;
+      padding: 0.5rem;
+  }
+  #contact:hover
+  {
+      cursor: pointer;
+  }
+  #content
+  {
+      display: flex;
+      flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding: 1.5rem;
+  }
+  #content div{
+      margin: 1rem;
+      font-size: 1.5rem;
+  }

@@ -14,7 +14,34 @@ export const Main = () => {
                 <input type="text" placeholder="Email Address" />
                 <input type="text" placeholder="Phone Number" />
             </div>
-            <button>Contact Us</button>
+            <button id="contact">Contact Us</button>
+            <div id="content">
+                <div>WHY LOOSELEAF?</div>
+                <div>PRICING</div>
+                <div>RESOURCES</div>
+                <div>OUR OFFICES</div>
+            </div>
+            <div id="content1">
+                <div>
+                    CONTACT NUMBER
+                </div>
+                <div>
+                    +91-9310823646
+                </div>
+                <div>
+                    Illustrations by StorySet
+                </div>
+                <div>
+                &copy; 2021 Looseleaf, LLP, All Rights Reserved
+                </div>
+                <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+                <div>
+                </div>
+            </div>
 </div>
     );
 };
