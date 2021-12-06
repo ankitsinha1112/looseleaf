@@ -1,6 +1,5 @@
 import React from 'react';
-import './Main.css'
-
+import './Main.css';
 export const Main = () => {
     return (
 <div>
@@ -34,10 +33,12 @@ export const Main = () => {
                 <div>
                 &copy; 2021 Looseleaf, LLP, All Rights Reserved
                 </div>
-                <div class="social-links">
-                        <a href="#"><i class="fa fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
+                <div className="social-links">
+                        <a href="#"><i className="fa fa-whatsapp"></i></a>
+                        <a href="#"><i className="fa fa-instagram"></i></a>
+                        <a href="#"><i className="fa fa-twitter"></i></a>
+                        <a href="#"><i className="fa fa-facebook-f"></i></a>
+                        <a href="#"><i className="fa fa-linkedin"></i></a>
                 </div>
                 <div>
                 </div>
