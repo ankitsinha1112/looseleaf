@@ -2,7 +2,13 @@ import React from 'react';
 import './Main.css';
 // import { NavLink } from 'react-router-dom'
 import { Link } from 'react-router-dom';
-import { Footer } from "./Footer";
+import styled from 'styled-components';
+const StyledLink = styled(Link)`
+    text-decoration: none;
+    &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none;
+    }
+`;
 export const Main = () => {
     return (
 <div id="main">
@@ -20,8 +26,7 @@ export const Main = () => {
             <button id="contact">Contact Us</button>
             </Link>
             <div id="content">
-                <div>WHY LOOSELEAF?
-                    
+                <div>WHY LOOSELEAF? 
                 </div>
                 <div>PRICING</div>
                 <div>RESOURCES</div>
@@ -53,7 +58,7 @@ export const Main = () => {
                         <a href="#"><i className="fa fa-linkedin"></i></a>
                 </div>
                 <div>
-                    Made In India <span aria-label="🇮🇳" role="img">🇮🇳</span> With <span aria-label="heart" role="img">❤️</span>
+                    Made In India {'🇮🇳'}  With <span aria-label="heart" role="img">❤️</span>
                 </div>
             </div>
                 <div id="last">
@@ -63,9 +68,11 @@ export const Main = () => {
                     <div>
                         Terms
                     </div>
-                    <div>
+                    <StyledLink to="/footer">
+                    <div id="fil">
                         Contact Us
                     </div>
+                        </StyledLink>
                 </div>
 </div>
     );

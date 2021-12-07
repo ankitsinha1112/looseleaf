@@ -91,6 +91,10 @@
 {
     font-size: large;
 }
+#last div:hover
+{
+    cursor: pointer;
+}
 .f1
 {
     margin: 2rem;
@@ -108,4 +112,8 @@
 #content1 div
 {
 color: rgba(255, 255, 255, 0.753);
+}
+#fil
+{
+    color: white;
 }

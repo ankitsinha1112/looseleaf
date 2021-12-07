@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <Routes>
-        <Route exact path="/looseleaf" element={<Main />}/>
+        <Route exact path="/" element={<Main />}/>
         <Route  path="/footer" element={<Footer />}/>
       </Routes>
       </header>
