@@ -1,5 +1,7 @@
 import React from 'react';
 import './Main.css';
+// import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import { Footer } from "./Footer";
 export const Main = () => {
     return (
@@ -14,7 +16,9 @@ export const Main = () => {
                 <input type="text" placeholder="Email Address" />
                 <input type="text" placeholder="Phone Number" />
             </div>
+            <Link to="/footer">
             <button id="contact">Contact Us</button>
+            </Link>
             <div id="content">
                 <div>WHY LOOSELEAF?</div>
                 <div>PRICING</div>

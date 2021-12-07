@@ -1,11 +1,17 @@
 import './App.css';
-import { Main } from "./components/Main";
+import React, { Component  } from "react";
+import { Route,Routes } from "react-router-dom";
+import  {Main}  from "./components/Main";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Main/>
+      <Routes>
+        <Route exact path="/looseleaf" element={<Main />}/>
+        <Route  path="/footer" element={<Footer />}/>
+      </Routes>
       </header>
     </div>
   );
