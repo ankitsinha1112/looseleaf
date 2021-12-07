@@ -20,7 +20,9 @@ export const Main = () => {
             <button id="contact">Contact Us</button>
             </Link>
             <div id="content">
-                <div>WHY LOOSELEAF?</div>
+                <div>WHY LOOSELEAF?
+                    
+                </div>
                 <div>PRICING</div>
                 <div>RESOURCES</div>
                 <div>OUR OFFICES</div>
@@ -51,7 +53,7 @@ export const Main = () => {
                         <a href="#"><i className="fa fa-linkedin"></i></a>
                 </div>
                 <div>
-                    Made In India <span aria-label="🇮🇳" role="img">🇮🇳</span> With <span aria-label="heart" role="img">❤️ </span>
+                    Made In India <span aria-label="🇮🇳" role="img">🇮🇳</span> With <span aria-label="heart" role="img">❤️</span>
                 </div>
             </div>
                 <div id="last">
